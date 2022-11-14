@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Storm';
+    src: url('Storm Gust.otf') format('opentype');
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+header {
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.512);
+    border-radius: 0px 15px 0px 15px;
+}
+
+header > h1 {
+    font-family: 'Storm';
+    color: darkorange;
+    text-align: center;
+    font-size: 4em;
+    padding: 40px 10px 10px 10px;
+    margin: 20px 10px;
+}
+
+header > nav {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 0px 0px 0px 15px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+header > nav > a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+#titulo {
+    color: brown;
+    background-color: orange;
+    padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.512);
+    border-radius: 0px 15px 0px 15px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+}
+section{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.512);
+}
+
+footer {
+    padding: 1px;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.512);
+}
+
+footer > p {
+    margin: 0px;
+}
