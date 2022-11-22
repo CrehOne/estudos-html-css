@@ -7,7 +7,53 @@
     <title>Formulários</title>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="iestado">Estado: </label>
+            <select name="estado" id="iestado">
+
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="Desenvolvedor Front-End"></option>
+                <option value="Desenvolvedor Back-End"></option>
+                <option value="Desenvolvedor Full Stack"></option>
+                <option value="DevOps"></option>
+                <option value="Desenvolvedor Mobile"></option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imens">Mensagem: </label><br>
+            <textarea name="mens" id="imens" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
     
 </body>
 </html>
