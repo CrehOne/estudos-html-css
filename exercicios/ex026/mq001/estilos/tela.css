@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: lightcoral;
+    text-align: center;
+    height: 120px;
+    padding-top: 40px;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: brown;
+}
+
+menu li {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}

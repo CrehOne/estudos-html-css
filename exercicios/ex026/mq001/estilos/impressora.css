@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+menu {
+    display: none;
+}
+
+main {
+    width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main::after {
+    content: "Site impresso por www.cursoemvideo.com";
+}
