@@ -1,1 +1,58 @@
 @charset "UTF-8";
+
+@media print {
+    main {
+        border: 1px solid black;
+    }
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        text-shadow: none;
+    }
+    #pc, #phone, #print, #tablet, #tv {
+        display: none;
+        margin: auto;
+    }
+    #print {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #pc, #phone, #print, #tablet, #tv {
+        display: none;
+        margin: auto;
+    }
+    #tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #pc, #phone, #print, #tablet, #tv {
+        display: none;
+        margin: auto;
+    }
+    #pc {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #pc, #phone, #print, #tablet, #tv {
+        display: none;
+        margin: auto;
+    }
+    #tv {
+        display: block;
+    }
+}
