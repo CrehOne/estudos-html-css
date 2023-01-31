@@ -155,3 +155,319 @@ nav a:hover {
 #first_hour {
     padding-top: 20px;
 }
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .news_posted_at {
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_coments {
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+article .news_thumbnail {
+    margin-top: 30px;
+}
+
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    color: black;
+    margin: 25px 0px;
+    font-size: 23px;
+}
+
+article .news_resume {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+#departments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.department {
+    width: 155px;
+    height: 150px;
+    margin: 10px 0px;
+    background-color: #39aae1;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.533);
+}
+
+#appointment {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment_text,
+.appointment_option {
+    padding: 10px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 1;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.footer_menu h2 {
+    font-weight: normal;
+}
+
+.footer_menu p,
+.footer_menu span {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+}
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.footer_area {
+    display: flex;
+}
+
+.footer_areaitem {
+    flex: 1;
+    color: white;
+}
+
+footer .widget_title_text {
+    color: white;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts p {
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.footer_areaitem .widget_body {
+    font-weight: normal;
+    font-size: 14px;
+    color: #777575;
+}
+
+.highlight {
+    color: white;
+}
+
+.footer_areaitem img {
+    width: 20px;
+    height: 20px;
+    background-color: #5c5c5c62;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.footer_areaitem .widget_body ul {
+    padding-left: 15px;
+    padding-right: 10px;
+    color: white;
+}
+
+.footer_areaitem .widget_body li {
+    padding-bottom: 15px;
+}
+
+.passedTime {
+    color: #0079c7;
+    font-size: 10px;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#tweets {
+    color: #777575;
+}
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #0079c7;
+}
+
+@media (max-width: 600px) {
+    .banner_headline {
+        padding: 20px;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .banner_headline h1 {
+        font-size: 55px;
+        height: auto;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #firstNews {
+        margin-top: 120px;
+    }
+
+    #geral section,
+    #geral aside {
+        padding: 20px;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+    }
+
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.820);
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
