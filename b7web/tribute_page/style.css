@@ -39,6 +39,7 @@
     line-height: 1.5em;
     padding: 40px;
     width: 99vw;
+    text-shadow: 1px 1px 4px rgb(92, 43, 226);
 }
 
 .descText p {
