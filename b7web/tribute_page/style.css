@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    display: flex;
+    background-image: url(images/theRevBgSmall.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    justify-content: right;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bannerText h1{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em;
+}
+
+.bannerText h2 {
+    color: white;
+    font-family: 'Explora', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+.descText {
+    background-color: black;
+    color: white;
+    height: auto;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 40px;
+    width: 100vw;
+}
+
+.lifeLine {
+    background-image: url(images/theRevDeathbatSmall.jpg);
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+.lifeLine p {
+    color: white;
+    font-size: 1em;
+    max-height: 80px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.timelineLeft {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.timelineLeft p {
+    padding-right: 10px;
+    border-right: 3px solid white;
+    flex: 1;
+}
+
+.timelineRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.timelineRight p {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.wikiLink,
+footer {
+    background-color: rgb(152, 70, 230);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    height: 30px;
+    padding: 10px;
+}
+
+.wikiLink a,
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(92, 43, 226);
+    margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+    .banner {
+        background-image: url(images/theRevBg.jpg);
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .lifeLine {
+        background-image: url(images/theRevDeathbat.jpg);
+        background-size: cover;
+    }
+}
+
