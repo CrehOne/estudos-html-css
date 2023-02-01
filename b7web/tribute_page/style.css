@@ -41,6 +41,13 @@
     width: 100vw;
 }
 
+.descText p {
+    border: 2px solid rgb(92, 43, 226);
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px rgba(153, 70, 230, 0.345);
+    padding: 20px;
+}
+
 .lifeLine {
     background-image: url(images/theRevDeathbatSmall.jpg);
     display: flex;
@@ -87,6 +94,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.8em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.304);
     height: 30px;
     padding: 10px;
 }
